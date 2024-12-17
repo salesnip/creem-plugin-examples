@@ -1,0 +1,50 @@
+body {
+  overflow: hidden;
+}
+
+* {
+  font-family: system-ui;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+button {
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  background: #58cc02;
+  border: none !important;
+  padding: 18px 20px;
+  box-shadow: 0 5px 0 #58a700;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translate(0, 5px);
+}
+
+.btn-secondary {
+  align-items: center;
+  color: #58a700;
+  background: rgba(88, 204, 2, 0.2);
+  box-shadow: 0 5px 0 rgba(88, 167, 0, 0.3);
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 230px;
+}
